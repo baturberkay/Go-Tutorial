@@ -3,6 +3,8 @@ package helloWorld
 import "fmt"
 
 func HelloWorld() {
+	// Uppercase for first letter defines the access level. If function starts with uppercase, this function
+	// can be accessed in other modules.
 
 	var name string
 	var age int8
