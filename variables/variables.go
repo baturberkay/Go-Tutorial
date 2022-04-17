@@ -6,7 +6,8 @@ const constantVariable string = "This is a constant variable." // const keyword 
 
 func Variables() {
 
-	var one, two = 1, 2 // one or more variable can be declared using var keyword.
+	var one, two = 1, 2 // one or more variables can be declared using var keyword.
+	//one,two := 1,2 is another way to declare one or more variables
 	//var one, two int = 1,2 type (int) can be omitted
 	fmt.Println(one, two)
 
