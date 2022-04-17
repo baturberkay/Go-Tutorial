@@ -5,6 +5,7 @@ import (
 	"goTutorial/arrays"
 	"goTutorial/helloWorld"
 	"goTutorial/loops"
+	"goTutorial/maps"
 	"goTutorial/slices"
 	"goTutorial/statementsAndConditions"
 	"goTutorial/variables"
@@ -18,4 +19,5 @@ func main() {
 	statementsAndConditions.StatementsAndConditions()
 	arrays.Arrays()
 	slices.Slices()
+	maps.Maps()
 }
