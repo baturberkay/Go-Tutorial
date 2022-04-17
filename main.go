@@ -1,15 +1,13 @@
 package main
 
 import (
-	"goTutorial/arithmeticOperations"
-	"goTutorial/helloWorld"
-	"goTutorial/loops"
-	"goTutorial/variables"
+	"goTutorial/statementsAndConditions"
 )
 
 func main() {
-	helloWorld.HelloWorld()
-	arithmeticOperations.ArithmeticOperations()
-	variables.Variables()
-	loops.Loops()
+	//helloWorld.HelloWorld()
+	//arithmeticOperations.ArithmeticOperations()
+	//variables.Variables()
+	//loops.Loops()
+	statementsAndConditions.StatementsAndConditions()
 }
