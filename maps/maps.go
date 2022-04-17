@@ -22,4 +22,8 @@ func Maps() {
 	if v, exist := maps[1]; exist {
 		fmt.Println(v, exist) // one true
 	}
+
+	for key, value := range maps { // iterate over maps using range
+		fmt.Println(key, value)
+	}
 }

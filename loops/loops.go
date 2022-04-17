@@ -3,7 +3,6 @@ package loops
 import "fmt"
 
 func Loops() {
-
 	i := 0
 	for i <= 10 { // for with single condition. Like while loop
 		fmt.Println(i)
@@ -22,4 +21,20 @@ func Loops() {
 		}
 		break
 	}
+
+	numbers := make([]int, 4) // declare slice
+	for i := 0; i <= 3; i++ {
+		numbers[i] = i // fill numbers
+	}
+
+	sumOfNumbers := 0
+	for number := range numbers {
+		sumOfNumbers += number
+	}
+	fmt.Println(sumOfNumbers)
+
+	for i, _ := range numbers { // _ ignores the value of item.
+		fmt.Println(i) // print indexes
+	}
+
 }
