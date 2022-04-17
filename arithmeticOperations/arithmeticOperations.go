@@ -17,7 +17,8 @@ func ArithmeticOperations() {
 	fmt.Println("production:= 2*6=>", productionResult)
 }
 
-func sum(sum1 int, sum2 int) int {
+// more than one parameter of the same type can be written in a single variable type.
+func sum(sum1, sum2 int) int {
 	return sum1 + sum2
 }
 
