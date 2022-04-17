@@ -46,5 +46,4 @@ func StatementsAndConditions() {
 	default:
 		fmt.Println("not recognized")
 	}
-
 }
