@@ -15,6 +15,10 @@ func ArithmeticOperations() {
 
 	productionResult := production(2, 6)
 	fmt.Println("production:= 2*6=>", productionResult)
+
+	// functions can multiple two values
+	res1, res2 := multipleReturn(2, 6)
+	fmt.Println("res1, res2", res1, res2)
 }
 
 // more than one parameter of the same type can be written in a single variable type.
@@ -35,4 +39,11 @@ func subtraction(subs1 int, subs2 int) int {
 
 func production(prod1 int, prod2 int) int {
 	return prod1 * prod2
+}
+
+func multipleReturn(num1 int, num2 int) (int, int) {
+	sum1 := num2 + num1
+	prod1 := num1 * num2
+
+	return sum1, prod1
 }
