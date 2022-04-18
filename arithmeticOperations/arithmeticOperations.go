@@ -16,6 +16,10 @@ func ArithmeticOperations() {
 	productionResult := production(2, 6)
 	fmt.Println("production:= 2*6=>", productionResult)
 
+	// variadic functions can take multiple parameters of the same type
+	variadicResult := variadicProd(2, 6, 7, 8)
+	fmt.Println("variadicProd(2, 6,7,8)", variadicResult)
+
 	// functions can multiple two values
 	res1, res2 := multipleReturn(2, 6)
 	fmt.Println("res1, res2", res1, res2)
@@ -24,6 +28,14 @@ func ArithmeticOperations() {
 // more than one parameter of the same type can be written in a single variable type.
 func sum(sum1, sum2 int) int {
 	return sum1 + sum2
+}
+
+func variadicProd(numbers ...int) int {
+	prod := 0
+	for num := range numbers {
+		prod *= num
+	}
+	return prod
 }
 
 func division(dividend int, divisor int) float32 {
