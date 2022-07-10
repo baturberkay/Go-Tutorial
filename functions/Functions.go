@@ -21,10 +21,18 @@ func multipleReturnValues() (int, int) {
 	return sum, sub
 }
 
+// We can give any number of parameters to the function using variadic functions.
+func variadic(params ...int) {
+	for _, i := range params {
+		fmt.Print(i)
+	}
+}
+
 func Functions() {
 	add(1, 2)
 	fmt.Println(sum(3, 5))
 	fmt.Println(multipleReturnValues())
 	_, sub := multipleReturnValues() // We can ignore a value using blank identifier (_) symbol.
 	fmt.Println(sub)
+	variadic(1, 2, 3, 4, 5, 6, 7, 8)
 }
