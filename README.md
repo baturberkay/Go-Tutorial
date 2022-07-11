@@ -1,5 +1,12 @@
 # Go-Tutorial
 
-I've started learning Go and I would like to share my examples with other learners.
+## Tests
 
-Don't give up! :)
+Before writing a test, some important points should be noted. <br/>
+* Test files must end with "_test" suffix. <br/>
+* You may want to see the result of each test, you need to add -v tag to the "go test test_file_test.go" command. -v means verbose mode which prints test results to the console.
+
+To run tests, the command should be like <br/>
+````
+go test test_file_test.go -v
+````
