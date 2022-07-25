@@ -3,6 +3,7 @@ package main
 import (
 	"goTutorial/arithmeticOperations"
 	"goTutorial/arrays"
+	"goTutorial/closures"
 	"goTutorial/functions"
 	"goTutorial/helloWorld"
 	"goTutorial/loops"
@@ -22,4 +23,5 @@ func main() {
 	slices.Slices()
 	maps.Maps()
 	functions.Functions()
+	closures.Closure()
 }
