@@ -8,6 +8,7 @@ import (
 	"goTutorial/helloWorld"
 	"goTutorial/loops"
 	"goTutorial/maps"
+	"goTutorial/pointers"
 	"goTutorial/slices"
 	"goTutorial/statementsAndConditions"
 	"goTutorial/variables"
@@ -24,4 +25,5 @@ func main() {
 	maps.Maps()
 	functions.Functions()
 	closures.Closure()
+	pointers.Pointers()
 }
